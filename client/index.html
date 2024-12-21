@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Animais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Registro de Animais</h1>
+
+  <!-- Formulário para adicionar animais -->
+  <form id="animalForm">
+    <input type="text" id="numero" placeholder="Número" required>
+    <input type="text" id="sexo" placeholder="Sexo" required>
+    <input type="number" id="idade" placeholder="Idade" required>
+    <input type="text" id="filiacao" placeholder="Filiação" required>
+    <button type="submit">Adicionar Animal</button>
+  </form>
+
+  <!-- Botão para listar animais -->
+  <button id="getAnimals">Listar Animais</button>
+
+
+  <!-- Lista de animais -->
+  <div id="animalList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
